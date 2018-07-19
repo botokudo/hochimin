@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: fabs/haskell-botokudo:1
+    steps:
+      - checkout
+      - run:
+          name: Build
+          command: stack build
+      - run:
+          name: test
+          command: stack test
+      - run:
+          name: lint
+          command: hlint
