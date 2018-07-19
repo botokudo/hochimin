@@ -1,4 +1,4 @@
-module Server where
+module Communication.Server where
 
-server :: Int -> IO ()
-server = undefined
+    server :: Int -> IO ()
+    server = undefined

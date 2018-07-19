@@ -1,5 +1,5 @@
-module Session where
-    import Command
+module Communication.Session where
+    import Communication.Command
 
     data SessionData = SessionData {
         ip :: String,

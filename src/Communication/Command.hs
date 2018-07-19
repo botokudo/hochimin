@@ -1,6 +1,6 @@
-module Command (Command) where
+module Communication.Command (Command) where
     -- https://stackoverflow.com/questions/36978780/haskell-resolving-cyclical-module-dependency
-    import Node
+    import Communication.Node
 
     class Command a where
         -- run :: Session -> Session
