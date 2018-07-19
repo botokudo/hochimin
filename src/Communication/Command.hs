@@ -1,0 +1,12 @@
+module Command (Command) where
+    -- https://stackoverflow.com/questions/36978780/haskell-resolving-cyclical-module-dependency
+    import Node
+
+    class Command a where
+        -- run :: Session -> Session
+        -- canRun :: Node -> Bool
+
+    -- data LsCommand
+    -- data WriteCommand
+
+    -- instance Command __ where
