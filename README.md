@@ -1,5 +1,4 @@
 # hochimin
-
 Install Stack - https://docs.haskellstack.org/en/stable/README/
 
 # to run do
