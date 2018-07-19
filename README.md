@@ -1,11 +1,12 @@
 # hochimin
 
-Install Stack
-https://docs.haskellstack.org/en/stable/README/
+Install Stack - https://docs.haskellstack.org/en/stable/README/
 
-## creating
+# to run do
+stack build
+
+stack exec hochimin-exe
+
+## I created the project with
 stack new hochimin --bare --force
 
-## Build and run
-stack build
-stack exec hochimin-exe
